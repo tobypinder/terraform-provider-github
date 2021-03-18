@@ -19,8 +19,8 @@ Use the navigation to the left to read about the available resources.
 ```hcl
 # Configure the GitHub Provider
 provider "github" {
-  token = "${var.github_token}"
-  owner = "${var.github_owner}"
+  token = var.github_token
+  owner = var.github_owner
 }
 
 # Add a user to the organization
